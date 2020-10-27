@@ -4,10 +4,10 @@
     </div>
 
     <div>
-        <h5 class="font-bold mb-4">John Doe</h5>
+        <h5 class="font-bold mb-4">{{ $tweet->user->name }}</h5>
 
         <p class="text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe magni aperiam alias provident aliquam illum quam blanditiis, dignissimos quos praesentium iste ea, quia possimus, laborum harum animi rerum quaerat inventore.
+            {{ $tweet->body }}
         </p>
     </div>
 </div>
