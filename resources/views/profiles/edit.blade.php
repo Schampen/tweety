@@ -51,7 +51,6 @@
                                 name="avatar"
                                 id="avatar"
                                 value="{{ $user->avatar }}"
-                                required
                         >
 
                         <img src=" {{ $user->avatar }} " alt="avatar" width="50" height="50">
