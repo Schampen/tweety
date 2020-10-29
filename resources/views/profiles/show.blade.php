@@ -3,7 +3,7 @@
         <header class="mb-6 relative">
             <div class="relative">
                 <img src="/images/banner.jpg" alt="Banner" class="mb-2 rounded-lg" style="max-height:200px; width:100%;">
-                <img src="/images/korby.jpg" alt="Korby" class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2" width="150" style="left:50%">
+                <img src="{{ $user->avatar }}" alt="profile picture" class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2" width="150" style="left:50%; max-height:150px;">
             </div>
                 
         
